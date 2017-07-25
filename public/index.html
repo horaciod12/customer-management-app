@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="main">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Angular and dependencies -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.6.4/angular-route.min.js"></script>
+
+	<!-- App libs -->
+	<script src="js/services.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/directives.js"></script>
+	<script src="js/app.js"></script>
+
+	<title>Customer Manager</title>
+
+</head>
+
+<body>
+
+	<nav-menu></nav-menu>
+
+	<ng-view></ng-view>
+	
+</body>
+</html>

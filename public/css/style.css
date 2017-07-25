@@ -1,0 +1,55 @@
+.logo {
+	width: 35px;
+    height: 35px;
+    margin-top: 11px;
+}
+
+.menu {
+	margin-left: 10px;
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.card {
+	border-bottom: 2px solid;
+	width: 20rem;
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-right: 25px;
+}
+
+.list .form-inline {
+	margin-bottom: 30px;
+}
+
+.list .form-inline .form-group {
+	margin-right: 20px;
+}
+
+.list .form-inline button {
+	margin-top: 25px;
+}
+
+.edit .form-control {
+	max-width: 500px;
+}
+
+td a {
+	text-decoration: underline;
+}
+
+.thead:hover {
+	cursor: pointer;
+}
+
+table {
+	margin-top: 30px;
+}
+
+.navbar {
+	min-height: 62px;
+}
+
+.cont-form {
+	margin-top: 25px;
+}
