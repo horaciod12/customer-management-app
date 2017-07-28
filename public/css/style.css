@@ -53,3 +53,26 @@ table {
 .cont-form {
 	margin-top: 25px;
 }
+
+
+/*Animation:*/
+
+ng-view.ng-enter, ng-view.ng-leave {
+	transition: 0.3s linear all;
+	position: fixed;
+	left: 0;
+	top: 82px;
+	width: 100%;
+}
+
+ng-view.ng-enter {
+	transform: translateX(100%);
+}
+
+ng-view.ng-leave, ng-view.ng-enter.ng-enter-active {
+	opacity: 1;
+}
+
+ng-view.ng-leave.ng-leave-active {
+	opacity: 0;
+}
