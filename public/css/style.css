@@ -76,3 +76,17 @@ ng-view.ng-leave, ng-view.ng-enter.ng-enter-active {
 ng-view.ng-leave.ng-leave-active {
 	opacity: 0;
 }
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width: 769px) {
+    .menu {
+    	display: flex;
+    	margin-left: 27px;
+    }
+
+    nav div.container {
+    	display: flex;
+    }
+}
